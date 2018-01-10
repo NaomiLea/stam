@@ -1,0 +1,108 @@
+/*Re-usable CSS*/
+
+.spacer50 {
+  margin: 50px 0 0 0;
+}
+
+/*Individual styling*/
+
+body {
+  font: 14px/1.3em 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #323336;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 55px;
+  max-width: 1080px;
+  min-height: 985px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #666;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 1.25em;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.feed-combo {
+  position: relative;
+}
+
+.breadcrumbs {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.breadcrumbs a {
+  flex-direction: row;
+  white-space: nowrap;
+  border-bottom: 4px solid #DAE2EA;
+}
+
+label {
+  display: inline-block;
+  float: left;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.breadcrumbs input[type=checkbox] {
+  bottom: 0;
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+#breadcrumbs-categories:checked {
+  border-bottom: 4px solid #02add7;
+}
+
+.activity-snippets {
+  display: flex;
+}
+
+.activity-post-link:first-child {
+  padding-left: 0px;
+}
+
+.activity-post-link:last-child {
+  padding-right: 0px;
+}
+
+.activity-post-link {
+  height: 215px;
+  width: 33.33333333%;
+  flex-grow: 0;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.activity-post-link img {
+  max-width: 100%;
+}
+
+.activity-post-link a {
+  text-decoration: none;
+  white-space: normal;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.25em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 12px;
+}
