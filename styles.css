@@ -86,7 +86,7 @@ label {
   margin-right: 12px;
   margin-left: 12px;
   position: relative;
-  border-bottom: 1px solid #989898
+  border-bottom: 1px solid #989898;
 }
 
 .activity-post-link img {
@@ -107,6 +107,7 @@ h2 {
 .footer {
   position: absolute;
   bottom: 12px;
+  display: flex;
 }
 
 .footer img {
@@ -127,4 +128,15 @@ h2 {
   font-weight: 700;
 }
 
-s
+.level {
+  flex-direction: row;
+  align-content: flex-end;
+}
+
+.level p {
+  color: #989898;
+}
+
+#time {
+  border-right: 1px solid #989898;
+}
