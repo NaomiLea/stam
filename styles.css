@@ -69,6 +69,7 @@ label {
 
 .activity-snippets {
   display: flex;
+  margin-bottom: 75px;
 }
 
 .activity-post-link:first-child {
@@ -144,6 +145,10 @@ h2 {
 #time {
   border-right: 1px solid #989898;
   padding-right: 10px;
+}
+
+.video-section {
+  display: flex;
 }
 
 video {
