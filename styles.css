@@ -80,11 +80,13 @@ label {
 }
 
 .activity-post-link {
-  height: 215px;
+  height: 335px;
   width: 33.33333333%;
   flex-grow: 0;
   padding-right: 12px;
   padding-left: 12px;
+  position: relative;
+  border-bottom: 1px solid #989898
 }
 
 .activity-post-link img {
@@ -106,3 +108,23 @@ h2 {
   position: absolute;
   bottom: 12px;
 }
+
+.footer img {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.footer span {
+  height: 33px;
+  display: flex;
+  align-items: center;
+}
+
+.footer a {
+  color: #323336;
+  font-weight: 700;
+}
+
+s
