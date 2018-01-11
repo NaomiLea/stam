@@ -129,14 +129,15 @@ h2 {
 }
 
 .level {
-  flex-direction: row;
-  align-content: flex-end;
+  display: flex;
+  color: #989898;
 }
 
-.level p {
-  color: #989898;
+#rate {
+  padding-left: 10px;
 }
 
 #time {
   border-right: 1px solid #989898;
+  padding-right: 10px;
 }
