@@ -128,6 +128,10 @@ h2 {
   font-weight: 700;
 }
 
+.footer-info {
+  float: right;
+}
+
 .level {
   display: flex;
   color: #989898;
@@ -140,4 +144,12 @@ h2 {
 #time {
   border-right: 1px solid #989898;
   padding-right: 10px;
+}
+
+video {
+  width: 80%;
+}
+
+.more-videos {
+  width: 20%;
 }
