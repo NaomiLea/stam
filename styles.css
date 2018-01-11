@@ -72,19 +72,19 @@ label {
 }
 
 .activity-post-link:first-child {
-  padding-left: 0px;
+  margin-left: 0px;
 }
 
 .activity-post-link:last-child {
-  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .activity-post-link {
   height: 335px;
   width: 33.33333333%;
   flex-grow: 0;
-  padding-right: 12px;
-  padding-left: 12px;
+  margin-right: 12px;
+  margin-left: 12px;
   position: relative;
   border-bottom: 1px solid #989898
 }
